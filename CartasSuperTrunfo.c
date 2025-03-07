@@ -21,9 +21,9 @@ int main (){
 	printf ("Insira uma letra de 'A' a 'H':\n");
 	scanf ("%c", &estado1);
 	printf ("Insira a letra do estado seguida de um numero de 01 a 04:\n");
-	scanf ("%s", &codigo_estado1);
+	scanf ("%s", codigo_estado1);
 	printf ("Insira o nome da cidade:\n");
-	scanf ("%s", &nome_cidade1);
+	scanf ("%s", nome_cidade1);
 	printf ("Insira o numero de habitantes da cidade:\n");
 	scanf ("%d", &populacao1);
 	printf ("Insira a area da cidade em quilometros quadrados:\n");
@@ -39,12 +39,11 @@ int main (){
 	//inserindo os parametros da segunda carta
 	printf ("Insira os parametros da segunda carta:\n");
 	printf ("Insira uma letra de 'A' a 'H':\n");
-	fflush(stdin);
 	scanf ("%c", &estado2);
 	printf ("Insira a letra do estado seguida de um numero de 01 a 04:\n");
-	scanf ("%s", &codigo_estado2);
+	scanf ("%s", codigo_estado2);
 	printf ("Insira o nome da cidade:\n");
-	scanf ("%s", &nome_cidade2);
+	scanf ("%s", nome_cidade2);
 	printf ("Insira o numero de habitantes da cidade:\n");
 	scanf ("%d", &populacao2);
 	printf ("Insira a area da cidade em quilometros quadrados:\n");
